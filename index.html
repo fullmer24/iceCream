@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container-fluid bg-primary text-dark p-2">
+            <div class="row text-center">
+                <h1>ICE CREAM</h1>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <main class="container-fluid">
+
+
+        <section class="row container-fluid p-2">
+            <div class="col-5">
+                <section id="cart" class="row">
+                    <div class="col-6">
+                        <p>Items</p>
+                    </div>
+                    <div class="col-2">
+                        <p>QTY</p>
+                    </div>
+                    <div class="col-2">
+                        <p>Cost</p>
+                    </div>
+                    <div class="col-2">
+                        <p>Total</p>
+                    </div>
+                    <div class="row bg-light text-dark p-2">
+                        <div class="col-6"><b>total: $<span id="total"></span></b>
+                        </div>
+                        <div class="col-6 text-end p-0">
+                            <button class="btn btn-outline-dark rounded-0" onclick="clearOrders()">clear</button>
+                        </div>
+                        <div>
+                            <section id="order-items" class="row bg-light text-dark p-3">
+                                <!-- <div class="col-12">
+                                    <p><span>OrderName</span> - <span class="text-end ms-auto">$1.00</span></p>
+                                </div> -->
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-7">
+                <section id="choices" class="row container-fluid text-danger">
+                    <div class="row p-2">
+                        <p>Vessels:</p>
+                    </div>
+                    <div id="vessels" class="row p-2">
+                        <div class="col-4  all-items">
+                            <!-- <img class="img-fluid p-2" src="https://m.media-amazon.com/images/I/71VNjBMakfL._SL1500_.jpg"
+                                alt="">
+                            <p class="bg-translucent name">vessel name</p>
+                            <p class="bg-translucent price">vessel price</p> -->
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <p>Flavors:</p>
+                    </div>
+                    <div id="flavors" class="row p-2">
+                        <div class="col-4 all-items">
+                            <!-- <img class="img-fluid p-2"
+                                src="https://celebratingsweets.com/wp-content/uploads/2014/04/Cookie-Dough-Ice-Cream-1-5.jpg"
+                                alt="">
+                            <p class="bg-translucent name p-2">flavor name</p>
+                            <p class="bg-translucent price p-2">flavor price</p> -->
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <p>Toppings:</p>
+                    </div>
+                    <div id="toppings" class="row p-2">
+                        <div class="col-4 all-items">
+                            <!-- <img class="img-fluid p-2" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Sprinkles2.jpg"
+                                alt="">
+                                <p class="bg-translucent name p-2">topping name</p>
+                                <p class="bg-translucent price p-2">topping price</p> -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer></footer>
+    <script src="apps.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

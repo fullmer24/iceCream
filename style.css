@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+
+/* SECTION vessels */
+.all-items {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.all-items div:hover {
+    transform: translateY(-3px);
+    outline: 1px solid white;
+}
+
+.all-items img {
+    height: 14em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 2;
+}
+
+.order-item:hover {
+    color: red;
+    cursor: pointer;
+}
